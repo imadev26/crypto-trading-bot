@@ -1,0 +1,34 @@
+{
+  "strategy_name": "TrendMasterPro",
+  "params": {
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "sell": {
+      "sell_rsi": 75
+    },
+    "buy": {
+      "buy_adx_1h_min": 32,
+      "buy_rsi_max": 70,
+      "buy_rsi_min": 50,
+      "buy_volume_multiplier": 1.8
+    },
+    "roi": {
+      "0": 0.213,
+      "26": 0.076,
+      "80": 0.028,
+      "175": 0
+    },
+    "stoploss": {
+      "stoploss": -0.031
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.211,
+      "trailing_stop_positive_offset": 0.263,
+      "trailing_only_offset_is_reached": false
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-08-31 13:19:06.550383+00:00"
+}
